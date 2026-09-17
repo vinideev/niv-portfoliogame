@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Niv - Game Developer Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=MedievalSharp&family=Jost:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo">Niv<span>.</span>dev</div>
+  <button class="nav-toggle" id="navToggle" aria-label="Abrir menu">MENU</button>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#games">Games</a></li>
+    <li><a href="#experiencia">XP</a></li>
+  </ul>
+</nav>
+
+<!-- ================= HOME ================= -->
+<section class="hero" id="home">
+  <div class="hero-frame"></div>
+  <span class="eyebrow">Desenvolvedor de jogos ·  Indie Developer</span>
+  <h1>Criando mundos <em> através de código e arte</em></h1>
+  <p class="hero-sub">Dedicando minha vida a criar histórias através de mecânicas divertidas, explorando ideias e concepts artisticos originais.</p>
+  <div class="hero-cta">
+    <a href="#games" class="btn btn-primary">Ver projetos</a>
+    <a href="#about" class="btn btn-ghost">Conhecer a jornada</a>
+  </div>
+  <div class="hero-scroll"><span class="stem"></span>ROLE PARA EXPLORAR</div>
+</section>
+
+<div class="vine-divider" data-vine>
+  <svg viewBox="0 0 1180 60" preserveAspectRatio="none">
+    <path class="vine-path" d="M0,30 C150,5 250,55 400,30 S650,5 700,30 C850,55 950,5 1180,30" />
+    <path class="vine-leaf" d="M400,30 c-6,-14 8,-24 20,-16 c-4,14 -12,20 -20,16z" transform="translate(0,-4)"/>
+    <path class="vine-leaf" d="M700,30 c6,-14 -8,-24 -20,-16 c4,14 12,20 20,16z" transform="translate(0,-4)"/>
+  </svg>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section id="about">
+  <div class="section-head">
+    <span class="eyebrow">01 · Quem sou</span>
+    <h2>About</h2>
+  </div>
+  <div class="about-grid">
+    <div class="about-portrait">
+      <img width="450px" src="icon.png" alt="">
+    </div>
+    <div class="about-text">
+      <p>Desenvolvedor de jogos, Game Designer e Instrutor de programação com 2+ anos de experiência e apaixonado pelo poder transformador da tecnologia e da arte.</p>
+      <p>Minha trajetória traz uma sólida atuação prática no desenvolvimento de jogos e na criação de protótipos em engines como Unity, Unreal Engine e Godot aplicando linguagens como C#, Blueprints e GDScript para estruturar mecânicas intuitivas e gameplays envolventes para contar histórias. Possuo também conhecimento em Desenvolvimento Web e aplicações com utilização de frameworks e banco de dados.</p>
+      <p>Graduado em Análise e Desenvolvimento de Sistemas, também leciono programação e desenvolvimento de jogos para crianças e adolescentes fortalecendo minha capacidade de comunicação, empatia e didática.Somando à minha paixão pela arte e design, fundamenta minha visão de que criar jogos é unir técnica, expressão artística e propósito para inspirar pessoas.</p>
+      <div class="stat-row">
+        <div><strong>02+</strong><span>Anos como desenvolvedor</span></div>
+        <div><strong>03</strong><span>Jogos Demos criados</span></div>
+        <div><strong>Unity</strong><span>Engine principal</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="vine-divider" data-vine>
+  <svg viewBox="0 0 1180 60" preserveAspectRatio="none">
+    <path class="vine-path" d="M0,30 C150,55 250,5 400,30 S650,55 700,30 C850,5 950,55 1180,30" />
+    <path class="vine-leaf" d="M400,30 c-6,14 8,24 20,16 c-4,-14 -12,-20 -20,-16z"/>
+    <path class="vine-leaf" d="M700,30 c6,14 -8,24 -20,16 c4,-14 12,-20 20,-16z"/>
+  </svg>
+</div>
+
+<!-- ================= GAMES ================= -->
+<section id="games">
+  <div class="section-head">
+    <span class="eyebrow">02 · Projetos</span>
+    <h2>Games</h2>
+  </div>
+  <div class="games-grid">
+
+    <div class="game-card" style="--art-a:#2c4a37; --art-b:#0f1b14;" data-url="https://store.steampowered.com/app/4562520/Sands_of_Fate/">
+      <div class="game-art">
+        <img width="320px" src="Sands.png" alt="">
+      </div>
+      <span class="game-glyph">✧</span>
+      <span class="game-tag">Unreal Engine 5</span>
+      <div class="game-info">
+        <h3>Sands Of Fate</h3>
+        <p>MMORPG Sandbox na qual participo na criação de sistemas através de blueprints pela Clever Ghoul Studio.</p>
+        <span class="engine">RPG · MMO · 2026</span>
+      </div>
+    </div>
+
+    <div class="game-card" style="--art-a:#3a3320; --art-b:#151d14;" data-url="https://nivdev.itch.io/calote-bar">
+      <div class="game-art">
+        <img width="500px" src="Calote.png" alt="">
+      </div>
+      <span class="game-glyph">⚔</span>
+      <span class="game-tag">Godot</span>
+      <div class="game-info">
+        <h3>Calote</h3>
+        <p>Projeto independente nascido de uma Game Jam com um time atual composto por programadores e artistas.</p>
+        <span class="engine">Simulador · 2026</span>
+      </div>
+    </div>
+
+    <div class="game-card" style="--art-a:#1f3a36; --art-b:#0f1b14;" data-url="https://nivdev.itch.io/logical-fishing">
+      <div class="game-art">
+        <img src="logical.png" alt="">
+      </div>
+      <span class="game-glyph">❧</span>
+      <span class="game-tag">Unity</span>
+      <div class="game-info">
+        <h3>Logical Fishing</h3>
+        <p>Projeto desenvolvido solo com temática educacional para projeto final da Faculdade.</p>
+        <span class="engine">Educacional · Aventura · 2025</span>
+      </div>
+    </div>
+
+    <div class="game-card" style="--art-a:#33422a; --art-b:#101c14;">
+      <div class="game-art">
+        <img width="350px" src="invoke.png" alt="">
+      </div>
+      <span class="game-glyph">☘</span>
+      <span class="game-tag">Unity</span>
+      <div class="game-info">
+        <h3>Invoke</h3>
+        <p>Projeto colaborativo ainda em desenvolvimento.</p>
+        <span class="engine">Puzzle · Terror · 2025</span>
+      </div>
+    </div>
+
+    <div class="game-card" style="--art-a:#213a2f; --art-b:#111f18;" data-url="https://nivdev.itch.io/that-spiritual-game">
+      <div class="game-art">
+        <img src="spiritual.png" alt="">
+      </div>
+      <span class="game-glyph">✦</span>
+      <span class="game-tag">Unity</span>
+      <div class="game-info">
+        <h3>That Spiritual Game</h3>
+        <p>Projeto desenvolvimento solo para uma participação de Game Jam.</p>
+        <span class="engine">Puzzle · 2025</span>
+      </div>
+    </div>
+
+   <!--
+    <div class="game-card" style="--art-a:#3d3521; --art-b:#141d13;">
+      <div class="game-art"></div>
+      <span class="game-glyph">✺</span>
+      <span class="game-tag">Unreal Engine 5</span>
+      <div class="game-info">
+        <h3>Crônicas de Thalvenor</h3>
+        <p>Pellentesque in ipsum id orci porta dapibus. Vestibulum ante ipsum primis.</p>
+        <span class="engine">RPG · Cooperativo · 2025</span>
+      </div>
+    </div>
+
+    --> 
+
+  </div>
+</section>
+
+<div class="vine-divider" data-vine>
+  <svg viewBox="0 0 1180 60" preserveAspectRatio="none">
+    <path class="vine-path" d="M0,30 C150,5 250,55 400,30 S650,5 700,30 C850,55 950,5 1180,30" />
+    <path class="vine-leaf" d="M400,30 c-6,-14 8,-24 20,-16 c-4,14 -12,20 -20,16z" transform="translate(0,-4)"/>
+    <path class="vine-leaf" d="M700,30 c6,-14 -8,-24 -20,-16 c4,14 12,20 20,16z" transform="translate(0,-4)"/>
+  </svg>
+</div>
+
+<!-- ================= EXPERIÊNCIA ================= -->
+<section id="experiencia">
+  <div class="section-head">
+    <span class="eyebrow">03 · Trajetória</span>
+    <h2>Experiência</h2>
+  </div>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <span class="timeline-date">2026</span>
+      <h3>Desenvolvedor Unreal Engine 5</h3>
+      <span class="timeline-role">Clever Ghoul Studio</span>
+      <p>Desenvolvendo sistemas com trajetória direcionada às demandas de produção de um RPG MMO sandbox, exigindo domínio de arquitetura escalável, sistemas interligados (gameplay, interface, persistência de dados) e capacidade de sustentar consistência técnica em um escopo grande e em constante expansão. Atuação envolve tanto a criação de novas funcionalidades quanto a resolução de problemas em sistemas já existentes, sempre equilibrando performance, manutenibilidade e experiência do jogador.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-date">2026</span>
+      <h3>Instrutor de Programação</h3>
+      <span class="timeline-role">Ctrl+Play - Escola de Tecnologia e Inovação para Crianças</span>
+      <p>Planejo e ministro aulas de programação adaptadas à faixa etária dos alunos ensinando lógica de programação e conceitos fundamentais através de ferramentas como Engines (Game Maker,Unity, Scratch entre outras) e linguagens visuais/iniciantes. Acompanho a evolução dos alunos, oferecendo suporte individualizado quando necessário mantendo um ambiente de aula acolhedor, dinâmico e estimulante.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-date">2024</span>
+      <h3>Desenvolvedor Unity</h3>
+      <span class="timeline-role">Projetos independentes</span>
+      <p>Desenvolvimento de jogos em C# com foco em orientação a objetos. Uso de interfaces e composição de componentes separando dados de configuração da lógica de gameplay.Participação em game jams com prototipagem de jogo jogável em prazo curto, atuando em programação e design de sistemas dentro de equipe pequena ou solo.</p>
+    </div>
+
+    <div class="timeline-item">
+      <span class="timeline-date">2023</span>
+      <h3>Início na programação</h3>
+      <span class="timeline-role">Estudos autodidatas</span>
+      <p>No inicio da minha jornada comecei através do desenvolvimento web estudando as principais linguagens de programação do mercado utilizando focando o front-end através do framework ReactJS. Aprendi conceitos básicos de banco de dados e integrações de API para melhor entendimento de conceitos iniciais do desenvolvimento. Nesse processo realizei a criação de alguns projetos autorais e cheguei a fazer partes de alguns freelancers. Apesar de não focar totalmente nessa parte ainda continuei em paralelo aprimorando esse conhecimentos para me manter atualizado no mercado até os dias atuais.</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+  <span>© 2026 Niv — Desenvolvedor de Jogos</span>
+  <ul class="foot-links">
+    <li><a href="#home">Topo</a></li>
+    <li><a href="#games">Games</a></li>
+    <li><a href="mailto:contato@exemplo.com">Contato</a></li>
+  </ul>
+</footer>
+
+<script>
+  // menu mobile
+  const navToggle = document.getElementById('navToggle');
+  const navLinks = document.getElementById('navLinks');
+  navToggle.addEventListener('click', () => navLinks.classList.toggle('open'));
+  navLinks.querySelectorAll('a').forEach(a => a.addEventListener('click', () => navLinks.classList.remove('open')));
+
+  // vine divider reveal on scroll
+  const vines = document.querySelectorAll('[data-vine]');
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if(e.isIntersecting){ e.target.classList.add('in-view'); }
+    });
+  }, { threshold: 0.4 });
+  vines.forEach(v => io.observe(v));
+
+  const gameCards = document.querySelectorAll('.game-card');
+
+  gameCards.forEach(card => {
+  card.addEventListener('click', () => {
+    const targetUrl = card.getAttribute('data-url');
+    
+    if (targetUrl) {
+      window.location.href = targetUrl;
+      
+      // Se preferir abrir em uma nova aba, use:
+      // window.open(targetUrl, '_blank');
+    }
+  });
+});
+
+
+</script>
+
+</body>
+</html>
